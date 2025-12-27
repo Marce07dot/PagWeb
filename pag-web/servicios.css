@@ -19,9 +19,6 @@ body {
 
 .header {
   background-color: #2e7d32;
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 15vh;
   display: flex;
   align-items: center;
@@ -59,4 +56,50 @@ body {
 
 .menu .navbar ul li a:hover {
   color: #cccccc;
+}
+
+.Services {
+  padding: 60px 0;
+  text-align: center;
+  position: relative;
+}
+
+.Services-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.Services-content h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: #2e7d32;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+
+.Services-group {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-bottom: 50px;
+}
+
+.Services-1 {
+  padding: 0;
+  text-align: center;
+}
+
+.Services-1 img {
+  width: 40px;
+  height: auto;
+  margin-bottom: 10px;
+  display: block;
+  filter: hue-rotate(60deg);
+}
+
+.Services-1 h3 {
+  color: #2e7d32;
+  font-size: 18px;
+  margin-bottom: 10px;
 }

@@ -411,32 +411,6 @@ p {
   color: #f9fafc;
 }
 
-#servicepage.container {
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-#servicepage.header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url(Imagen/Stella.jpg);
-  background-position: center bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-  min-height: 15vh;
-  display: flex;
-  align-items: center;
-}
-
-#servicepage.menu {
-  position: absolute;
-  top: 2.5vh;
-  left: 0;
-  right: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
 @media (max-width: 991px) {
   .menu {
     padding: 30px;
