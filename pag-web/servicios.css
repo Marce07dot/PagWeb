@@ -19,14 +19,13 @@ body {
 
 .header {
   background-color: #2e7d32;
-  height: 15vh;
+  height: 110px;
   display: flex;
   align-items: center;
 }
 
 .menu {
   position: absolute;
-  top: 2.5vh;
   left: 0;
   right: 0;
   display: flex;
@@ -86,20 +85,36 @@ body {
 }
 
 .Services-1 {
-  padding: 0;
+  padding: 15px;
+  width: 280px;
+  height: 205px;
   text-align: center;
+  border: 3px solid #2e7d32;
+  border-radius: 15px;
+  transition: all 0.5s;
+}
+
+.Services-1:hover {
+  background-color: #2e7d32;
+  padding: 30px;
+  width: 315px;
+  height: 240px;
+  box-shadow: 10px 10px 5px #9b9b9b;
+}
+
+.Services-1:hover h3 {
+  color: white;
 }
 
 .Services-1 img {
-  width: 40px;
-  height: auto;
-  margin-bottom: 10px;
+  width: auto;
+  height: 120px;
+  margin: 0 auto;
   display: block;
   filter: hue-rotate(60deg);
 }
 
-.Services-1 h3 {
+.Services-1 .Services-1 h3 {
   color: #2e7d32;
   font-size: 18px;
-  margin-bottom: 10px;
 }
