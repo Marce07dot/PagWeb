@@ -10,6 +10,7 @@
 
 body {
   font-family: "Poppins", sans-serif;
+  overflow: scroll;
 }
 
 .container {
@@ -64,9 +65,9 @@ body {
 }
 
 .Services-content {
-  max-width: 1200px;
-  margin: 0 auto;
   padding: 0 20px;
+  max-width: 1500px;
+  margin: 0 auto;
 }
 
 .Services-content h2 {
@@ -114,7 +115,33 @@ body {
   filter: hue-rotate(60deg);
 }
 
-.Services-1 .Services-1 h3 {
+.Services-1 h3 {
   color: #2e7d32;
   font-size: 18px;
+}
+
+.Description {
+  max-width: 1200px;
+  margin: 0px 150px;
+  margin-bottom: 100px;
+  gap: 20px;
+  display: flex;
+}
+
+.cDescription {
+  background-color: #2e7d32;
+  padding: 40px;
+  height: 250px;
+}
+
+.cDescription h2 {
+  font-size: 40px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.cDescription p {
+  font-size: 20px;
+  color: white;
 }
