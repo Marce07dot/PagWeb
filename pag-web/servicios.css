@@ -86,6 +86,7 @@ body {
 }
 
 .Services-1 {
+  cursor: pointer;
   padding: 15px;
   width: 280px;
   height: 205px;
@@ -130,18 +131,22 @@ body {
 
 .cDescription {
   background-color: #2e7d32;
-  padding: 40px;
-  height: 250px;
+  width: 590px;
 }
 
 .cDescription h2 {
   font-size: 40px;
   color: white;
   text-transform: uppercase;
-  margin-bottom: 10px;
 }
 
-.cDescription p {
+.cDescription p,
+.cDescription li {
   font-size: 20px;
   color: white;
+}
+
+.cDescription li {
+  list-style-type: disc;
+  margin-bottom: 5px;
 }
