@@ -4,6 +4,7 @@ let dva = document.getElementById("dva");
 let s1 = document.getElementById("service1");
 let s2 = document.getElementById("service2");
 let s3 = document.getElementById("service3");
+let body = document.body;
 
 function cambioParrafo(opcion) {
   dvd.querySelector("h2").textContent = "Descripción";
@@ -32,6 +33,14 @@ function cambioParrafo(opcion) {
       dva.querySelector("ul").innerHTML =
         "<li>Recogida masiva de basura y reciclaje.</li><li>Limpieza de suelos pegajosos o con derrames.</li><li>Limpieza y reorganización de mobiliario.</li><li>Aseo y reabastecimiento de baños públicos.</li>";
       break;
+  }
+
+  if (!document.querySelector(".Schedule")) {
+    const btn1 = document.createElement("button");
+    btn1.className = "Schedule";
+    btn1.innerText = "Agenda tu servicio";
+
+    document.body.appendChild(btn1);
   }
 }
 
