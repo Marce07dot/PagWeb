@@ -150,3 +150,40 @@ body {
   list-style-type: disc;
   margin-bottom: 5px;
 }
+
+.Schedule {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  display: block;
+  padding: 25px 45px;
+  background-color: transparent;
+  border: 4px solid #2e7d32;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 25px;
+  color: #2e7d32;
+  transition: all 0.3s ease;
+  font-family: "Poppins", sans-serif;
+  position: relative;
+}
+
+.Schedule::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2e7d32;
+  transition: height 0.3s ease;
+  z-index: -1;
+  border-radius: 9px;
+}
+
+.Schedule:hover::after {
+  height: 100%;
+}
+
+.Schedule:hover {
+  color: white;
+}
